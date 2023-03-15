@@ -16,11 +16,12 @@ public class SchoolController {
      @Autowired
     private SchoolRepository repository;
 
-    
 
-    // TODO : get school repository by dependency injection
+
+    // TODO : get school repository by dependency injectionvdf
 
     @GetMapping("/schools")
+
     public String getAll(Model model) {
 
          model.addAttribute("schools", repository.findAll());
