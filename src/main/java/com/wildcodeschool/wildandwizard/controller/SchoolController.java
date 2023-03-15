@@ -16,6 +16,8 @@ public class SchoolController {
      @Autowired
     private SchoolRepository repository;
 
+    
+
     // TODO : get school repository by dependency injection
 
     @GetMapping("/schools")
